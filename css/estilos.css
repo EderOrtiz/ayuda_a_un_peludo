@@ -2,8 +2,6 @@
 Barra de navegacion
 */
 
-
-
 * {
     margin: 0;
     padding: 0;
@@ -46,9 +44,10 @@ a:hover {
     color: grey;
 }
 
-html, body {
+html,
+body {
     height: 100%;
-  }
+}
 
 body {
     background-image: url("../img/wallpaper.jpg");
@@ -68,22 +67,21 @@ nav img {
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
 }
 
 .box1 {
     background-color: #ffffff;
     padding: 20px;
     margin-bottom: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+
 }
 
 /*
 Para las imagenes
 */
 
-.img{
+.img {
     width: 200px;
     height: 200px;
     display: block;
@@ -105,11 +103,24 @@ Para los botones
     color: #fff;
     text-decoration: none;
     background: #000000;
-  }
-  
-  .btn:hover {
-    background: none; 
-  }
+}
 
+.btn:hover {
+    background: none;
+}
 
-  
+.title{
+    font-size: 70px;
+}
+
+/*
+
+para el texto
+
+*/
+
+h3{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
